@@ -1,6 +1,6 @@
 # Medical Cost Prediction with Linear Regression
 
-A portfolio project exploring how demographic and lifestyle variables relate to insurance charges and using **multiple linear regression** to predict medical costs.
+A portfolio project exploring how demographic and lifestyle variables relate to insurance charges and using multiple linear regression** to predict medical costs.
 
 ## Project at a glance
 
@@ -8,17 +8,12 @@ A portfolio project exploring how demographic and lifestyle variables relate to 
 - **Data:** 1,338 insurance records; features include age, sex, BMI, number of children, smoking status, and region
 - **Tools:** Python, pandas, NumPy, seaborn, matplotlib, scikit-learn, Jupyter
 - **Approach:** Exploratory data analysis, one-hot encoding, 80/20 train/test split, ordinary least-squares linear regression
-- **Outcome:** R² of **0.7836** on the saved test split; see the evaluation table below
+- **Outcome:** R² of 0.7836 on the saved test split; see the evaluation table below
 
 ## Problem statement
 
 Can a simple interpretable regression model estimate insurance charges using demographic and lifestyle information? The project investigates patterns in the dataset and evaluates a baseline linear regression model.
 
-## Dataset
-
-The notebook expects a file called `insurance.csv` with these columns: `age`, `sex`, `bmi`, `children`, `smoker`, `region`, and `charges`. The original run displayed **1,338 rows** and no missing values in these columns.
-
-**Data availability:** The CSV was not supplied with this portfolio package, and the notebook does not document an authoritative dataset URL or license. **Do not assume this repository includes the data.** Before publishing or redistributing it, confirm its source and usage terms; then add a source citation here. The notebook cannot run without a compatible `insurance.csv` in the repository root.
 
 ## Workflow
 
@@ -31,8 +26,6 @@ The notebook expects a file called `insurance.csv` with these columns: `age`, `s
 
 ## Results
 
-The original notebook contains these **saved outputs** (not independently re-executed for this package):
-
 | Metric | Test result |
 |---|---:|
 | Mean Absolute Error (MAE) | 4,181.19 |
@@ -43,8 +36,6 @@ The original notebook contains these **saved outputs** (not independently re-exe
 The original analysis describes higher charges among smokers, a positive relationship between age and charges, and relatively similar charge distributions across sex and region. These are descriptive associations and **do not demonstrate causation**. The MAE indicates substantial typical prediction error despite the R² score.
 
 ## Visual exploration
-
-The charts below were extracted from the notebook's saved outputs.
 
 ![Saved exploratory chart 1](images/notebook_figure_03_02.png)
 
