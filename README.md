@@ -33,7 +33,7 @@ Can a simple interpretable regression model estimate insurance charges using dem
 | Root Mean Squared Error (RMSE) | 5,796.28 |
 | R² | 0.7836 |
 
-The original analysis describes higher charges among smokers, a positive relationship between age and charges, and relatively similar charge distributions across sex and region. These are descriptive associations and **do not demonstrate causation**. The MAE indicates substantial typical prediction error despite the R² score.
+The original analysis describes higher charges among smokers, a positive relationship between age and charges, and relatively similar charge distributions across sex and region. These are descriptive associations and do not demonstrate causation. The MAE indicates substantial typical prediction error despite the R² score.
 
 ## Visual exploration
 
