@@ -1,6 +1,6 @@
 # Medical Cost Prediction with Linear Regression
 
-A portfolio project exploring how demographic and lifestyle variables relate to insurance charges and using multiple linear regression** to predict medical costs.
+A portfolio project exploring how demographic and lifestyle variables relate to insurance charges and using multiple linear regression to predict medical costs.
 
 ## Project at a glance
 
